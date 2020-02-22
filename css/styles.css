@@ -13,7 +13,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 }
 
 .topo {
@@ -22,6 +22,8 @@ ul {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   object-fit: cover;
+  padding-bottom: 60px;
+  min-height: 600px;
 }
 
 .header {
@@ -66,7 +68,7 @@ ul {
   flex-direction: column;
   margin: 50px;
   width: 441px;
-  height: 511px;
+  height: 531px;
   border-radius: 6px;
 }
 
@@ -177,6 +179,10 @@ ul {
   border-radius: 12px !important;
   -webkit-box-direction: normal !important;
   -webkit-box-orient: horizontal !important;
+
+  -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.27);
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.27);
 }
 
 .texto-cards {
@@ -188,4 +194,58 @@ ul {
 .cards img {
   width: 126px;
   height: 84px;
+}
+
+/* carousel */
+.conteiner-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.alinhamento {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem-carousel {
+  border-radius: 6px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.imagem-carousel img {
+  width: 98%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 2px;
+}
+
+.titulo-card,
+.texto-card,
+.sub-titulo-carousel,
+.texto-cards p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.titulo-carousel {
+  font-size: 22px;
+  font-weight: 600;
 }
