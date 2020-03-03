@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Circular Book", "Roboto", sans-serif;
   color: rgb(72, 72, 72);
 }
 
@@ -248,4 +248,44 @@ ul {
 .titulo-carousel {
   font-size: 22px;
   font-weight: 600;
+}
+
+/* Footer */
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.colunas-footer {
+  text-align: left;
+  margin: 40px;
+}
+
+.titulo-footer {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.link-footer {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 4px;
+  color: rgb(118, 118, 118);
+}
+
+.novo-footer {
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+  background-color: green;
+  border-radius: 3px;
 }
